@@ -7,7 +7,6 @@
         <title>{{ $title ?? 'Page Title' }}</title>
     </head>
     <body>
-        <h1>Meu componente livewire</h1>
         {{ $slot }}
     </body>
 </html>
